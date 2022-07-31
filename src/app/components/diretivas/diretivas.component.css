@@ -1,0 +1,14 @@
+.titulo-verde
+{
+    color:green
+}
+
+.titulo-pequeno
+{
+    font-size: small;
+}
+
+.titulo-sublinhado
+{
+    text-decoration: underline;
+}

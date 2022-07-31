@@ -1,0 +1,12 @@
+h2 {
+    color: red;
+}
+.titulo {
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+p {
+    padding: 5px;
+}

@@ -1,0 +1,20 @@
+<div class="class">
+  <p>Componente ifRender começa aqui!</p>
+  <hr />
+  <br />
+  <h2 *ngIf="Mostrar">Mostrando porque o boolean é true.</h2>
+  <br />
+  <h2 *ngIf="Usuario === 'Administrador'">
+    Mostrar Isso apenas se o usuário for administrador.
+  </h2>
+  <br />
+  <h2 *ngIf="Usuario === 'Administrador'; else nomenaoencontrado">
+    Usuário é Administrador
+  </h2>
+
+  <ng-template #nomenaoencontrado>
+    <div>
+      <h2>O usuário não é o administrador.</h2>
+    </div>
+  </ng-template>
+</div>
